@@ -194,7 +194,7 @@ public class SignShop extends JavaPlugin{
 
     public static String getLogPrefix() {
         PluginDescriptionFile pdfFile = SignShop.getInstance().getDescription();
-        String prefix = ChatColor.GOLD + "[SignShop] [" +pdfFile.getVersion() +"]" + ChatColor.RED;
+        String prefix = ChatColor.GOLD + "[Shop] [" +pdfFile.getVersion() +"]" + ChatColor.RED;
         return prefix;
     }
 
